@@ -24,4 +24,8 @@
 		 	<li class="ol_about">Interests </li>
 		</ol>	
 	</body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 0d897c73f2eb0768ee28158d87456d0f9da82a1f
