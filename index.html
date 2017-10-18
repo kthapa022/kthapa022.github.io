@@ -1,21 +1,45 @@
 <html>
+<style>
+.photo_header{
+	width: 40px;
+	float: left;
+	border-radius: 50%;
+}
 
-	
-	<style>
-		#bannerimage {
-		  width: 100%;
-		  background-image: url("about_photo.jpg");
-		  height: 405px;
-		  background-color: purple;
-		   background-size:  auto 110%;
-		  background-position: center;
-	
-		}
-	</style>
+#header_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	text-align: center;
+}
+
+#header_li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+</style>
 	<body>
-		<div id="bannerimage" ></div>
-		
+		<ul id="header_ul">
+			<li id="header_li"><a href="https://www.linkedin.com/in/kshitiz-thapa-64878958/">Contact</a></li>
+			<li id="header_li"><a href="https://github.com/kthapa022">Projects</a></li>
 		<a href= "contact.php"> <img src="photo_me.png" class="photo_header"></a>
+		  <li id="header_li"><a href="https://kthapa022.github.io/">Home</a></li>
+		</ul>
 		<ol class="ol_about">Things on this page
 			<li class="ol_about"> Picture of me </li> 
 			<li class="ol_about"> Who I am  </li>
