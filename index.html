@@ -1,49 +1,69 @@
 <html>
+<title> Kshitiz Thapa </title>
 <style>
+	
+body{
+	background-color: #AAAAAA;
+	}
 .photo_header{
-	width: 40px;
+	width: 200px;
 	float: left;
 	border-radius: 50%;
+	
+	
 }
 
-#header_ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-	text-align: center;
+
+#photo_and_information{
+	
+	background-color: #FFFFFF;
+	
+
+}
+p.name_font{
+	font-family: "Times New Roman";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
 }
 
-#header_li{
-    float: left;
+ul.menu li {
+    display:inline;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.about_me{
+	background-color: #FFFFFF;
+	width: 70%;
 }
-
-li a:hover {
-    background-color: #111;
-}
-
 
 </style>
 	<body>
-		<ul id="header_ul">
+<!--		<ul id="header_ul">
 			<li id="header_li"><a href="https://www.linkedin.com/in/kshitiz-thapa-64878958/">Contact</a></li>
 			<li id="header_li"><a href="https://github.com/kthapa022">Projects</a></li>
-		<a href= "contact.php"> <img src="photo_me.png" class="photo_header"></a>
 		  <li id="header_li"><a href="https://kthapa022.github.io/">Home</a></li>
-		</ul>
-		<ol class="ol_about">Things on this page
-			<li class="ol_about"> Picture of me </li> 
-			<li class="ol_about"> Who I am  </li>
-		 	<li class="ol_about">Interests </li>
-		</ol>	
+		</ul> -->
+		<section id="photo_and_information">	
+		 <img src="photo_me.png" class="photo_header">
+			<p class="name_font">Kshitiz Thapa<p>
+			<h3> Graduate Student | Aspiring Software Developer | Soccer Enthusiast </h3>
+			<br>
+			<br>
+			<ul class="menu">
+				<li><a href="https://www.linkedin.com/in/kshitiz-thapa-64878958/"><img src="linkedin.png"></a></li>
+				<li><a href="https://github.com/kthapa022"><img src="github.png"></a></li>
+			<ul>
+			<br>
+
+		</section>
+		
+		<section class="about_me">
+			<p class="name_font"> About me <p>
+			<p class= "about_txt">
+				Hello World!<br> I am Kshitiz Thapa, and I am a graduate student at the University of Waterloo.  I am Indian by nationality, but I have spent a large portion of my life outside India. I did my high schooling in Nigeria at the Indian Language School, I completed my bachelors from the University of Minnesota and finally I am pursuing my masters from the University of Waterloo.<br>
+				I have been programming for the past 4 years in Java, Python, HTML, CSS, PHP and JavaScript for my courses and internships.  I am currently working with a friend to build 
+			</p>
+		</section>
+		
 	</body>
 </html>
